@@ -44,7 +44,6 @@ def create_subdir(project_path, rel_path=''):
 # project data dirs
 data_dir = create_subdir(os.path.join(project_dir, 'data'))
 csv_data_dir = create_subdir(os.path.join(data_dir, 'csv'))
-xls_data_dir = create_subdir(os.path.join(data_dir, 'xls'))
 
 
 # pretty printing
@@ -58,3 +57,4 @@ def print_title(txt):
 
 def print_subtitle(txt):
     print(bold(cyan('\n' + txt)))
+
